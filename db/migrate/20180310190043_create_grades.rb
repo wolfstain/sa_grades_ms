@@ -3,7 +3,7 @@ class CreateGrades < ActiveRecord::Migration[5.1]
     create_table :grades do |t|
       t.integer :student_id
       t.integer :course_code
-      t.float :grade
+      t.float :rate
 
       t.timestamps
     end
